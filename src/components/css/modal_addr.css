@@ -1,0 +1,41 @@
+#modalAddr {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+  z-index: 5;
+}
+#modalAddr > .container {
+  width: 500px;
+  height: 480px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+#modalAddr > .container .gap {
+  width: 100%;
+}
+#modalAddr > .container .gap .content {
+  width: 100%;
+  position: relative;
+}
+#modalAddr > .container .gap .content #postcodeComponent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#modalAddr #postcodeComponent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

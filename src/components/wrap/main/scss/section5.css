@@ -1,0 +1,22 @@
+#section5 {
+  width: 100%;
+  background-color: rgb(194, 197, 200);
+}
+#section5 .container {
+  width: 100%;
+  max-width: 1280px;
+  height: 480px;
+  margin: 0 auto;
+}
+#section5 .container .gap {
+  width: 100%;
+}
+#section5 .container .gap .content {
+  width: 100%;
+}
+#section5 .container .gap .content a {
+  width: 100%;
+}
+#section5 .container .gap .content a img {
+  height: 480px;
+}/*# sourceMappingURL=section5.css.map */

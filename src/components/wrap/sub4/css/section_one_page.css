@@ -1,0 +1,22 @@
+#sub4_section_one_page {
+  width: 100%;
+}
+#sub4_section_one_page .container {
+  width: 100%;
+  max-width: 1280px;
+  height: 480px;
+  margin: 0 auto;
+}
+#sub4_section_one_page .container .gap {
+  width: 100%;
+}
+#sub4_section_one_page .container .gap .content {
+  width: 100%;
+}
+#sub4_section_one_page .container .gap .content a {
+  width: 100%;
+}
+#sub4_section_one_page .container .gap .content a img {
+  width: 1280px;
+  height: 480px;
+}

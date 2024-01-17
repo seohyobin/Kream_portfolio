@@ -1,0 +1,25 @@
+
+{
+  "slide":[
+      {"img":"all1.png", "desc" : "반팔" },
+      {"img":"all2.png", "desc" : "살로몬" },
+      {"img":"all3.png", "desc" : "샤넬" },
+      {"img":"all4.png", "desc" : "휴먼 메이드" },
+      {"img":"all5.png", "desc" : "푸마" },
+      {"img":"all6.png", "desc" : "슈프림" },
+      {"img":"all7.png", "desc" : "키링" },
+      {"img":"all8.png", "desc" : "스투시" },
+      {"img":"all9.png", "desc" : "뉴발란스" },
+      {"img":"all10.png", "desc" : "뷰티" },
+      {"img":"all11.png", "desc" : "부츠" },
+      {"img":"all12.png", "desc" : "LP" },
+      {"img":"all13.png", "desc" : "목걸이" },
+      {"img":"all14.png", "desc" : "스캇" },
+      {"img":"all15.png", "desc" : "백팩" },
+      {"img":"all16.png", "desc" : "젠틀 몬스터" },
+      {"img":"all17.png", "desc" : "아디다스" },
+      {"img":"all18.png", "desc" : "애플" },
+      {"img":"all19.png", "desc" : "아크테릭그" },
+      {"img":"all19.png", "desc" : "아크테릭그" }
+  ]
+}

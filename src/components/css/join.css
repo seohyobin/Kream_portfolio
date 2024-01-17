@@ -1,0 +1,301 @@
+#join {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+#join .container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 58px 0 160px 0;
+}
+#join .container .content {
+  width: 100%;
+}
+#join .container .content .title {
+  width: 100%;
+  padding: 0 0 46px 0;
+}
+#join .container .content .title h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.48px;
+  color: #000;
+}
+#join .container .content form {
+  width: 100%;
+}
+#join .container .content form ul {
+  width: 100%;
+}
+#join .container .content form ul li {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 0 0 32px 0;
+  position: relative;
+}
+#join .container .content form ul li p {
+  position: absolute;
+  top: 59px;
+  color: #f15746;
+}
+#join .container .content form ul li label {
+  width: 100%;
+  color: #222;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.07px;
+  line-height: 18px;
+}
+#join .container .content form ul li label i {
+  vertical-align: top;
+}
+#join .container .content form ul li label.on {
+  color: #f15746;
+}
+#join .container .content form ul li input {
+  width: 100%;
+  height: 40px;
+  padding: 9px 0 8px 0;
+  border: 0;
+  border-bottom: 1px solid #dedede;
+  outline: 0;
+  color: #222;
+  font-size: 15px;
+}
+#join .container .content form ul li input::-moz-placeholder {
+  color: #dedede;
+  font-size: 13px;
+  letter-spacing: -0.15px;
+  line-height: 22px;
+}
+#join .container .content form ul li input::placeholder {
+  color: #dedede;
+  font-size: 13px;
+  letter-spacing: -0.15px;
+  line-height: 22px;
+}
+#join .container .content form ul li input:focus {
+  border-bottom: 2px solid #222;
+}
+#join .container .content form ul li input:focus::-moz-placeholder {
+  color: transparent;
+}
+#join .container .content form ul li input:focus::placeholder {
+  color: transparent;
+}
+#join .container .content form ul li button {
+  margin: 9px 0 0 0;
+  width: 100%;
+  height: 52px;
+  font-size: 15px;
+  border-radius: 12px;
+  border: 0;
+  background: #ededed;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: -0.07px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+#join .container .content form ul li button.on {
+  background-color: #222;
+}
+#join .container .content form ul li button img {
+  width: 24px;
+  height: 24px;
+  transform: scale(0.7) translateY(-4px);
+  margin: 0 0 0 -20px;
+  filter: brightness(0) invert(1);
+}
+#join .container .content form ul li input[type=button] {
+  background: #fff;
+  text-align: left;
+  cursor: pointer;
+  font-size: 15px;
+  color: #dedede;
+}
+#join .container .content form ul li input[type=button]:focus {
+  border-bottom: 1px solid #dedede;
+}
+#join .container .content form ul li:nth-child(7) {
+  position: relative;
+}
+#join .container .content form ul li:nth-child(7)::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 32px;
+  right: 5px;
+  background: url(../../../public/img/search.svg);
+  transform: translateY(-2px) scale(0.8);
+  z-index: 1;
+}
+#join .container .content form ul li:nth-child(7) > span {
+  position: absolute;
+  top: 32px;
+  right: 5px;
+  width: 40px;
+  height: 24px;
+  background: #fff;
+  z-index: 2;
+  color: #222;
+  font-weight: 700;
+  letter-spacing: -0.07;
+  cursor: pointer;
+}
+#join .container .content form ul li .user-addr1.off {
+  color: #222;
+  cursor: initial;
+}
+#join .container .content form ul li .user-addr2 {
+  color: #222;
+  font-size: 15px;
+}
+#join .container .content form ul li.user-foot-li {
+  position: relative;
+}
+#join .container .content form ul li.user-foot-li::after {
+  content: "";
+  width: 9px;
+  height: 9px;
+  border-top: 2px solid #222;
+  border-right: 2px solid #222;
+  position: absolute;
+  top: 32px;
+  right: 5px;
+  transform: rotate(45deg);
+}
+#join .container .content form ul li.user-foot-li input {
+  color: #222;
+}
+#join .container .content form ul li.user-philsoo-li .row1 {
+  display: flex;
+  position: relative;
+}
+#join .container .content form ul li.user-philsoo-li .row1 input[type=checkbox] {
+  display: none;
+}
+#join .container .content form ul li.user-philsoo-li .row1 input[type=checkbox] + label {
+  display: inline-block;
+  cursor: pointer;
+  line-height: 24px;
+  padding-left: 30px;
+  background: url("../../../public/img/ico_check_inactive.svg") left no-repeat;
+}
+#join .container .content form ul li.user-philsoo-li .row1 input[type=checkbox]:checked + label {
+  background-image: url("../../../public/img/ico_check_active.svg");
+}
+#join .container .content form ul li.user-philsoo-li .row1 i {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  background: url("../../../public/img/ico_plus.svg");
+  cursor: pointer;
+}
+#join .container .content form ul li.user-philsoo-li .row1 i.on {
+  background: url("../../../public/img/ico_minus.svg");
+}
+#join .container .content form ul li.user-philsoo-li .row2 {
+  display: none;
+  padding: 16px 0 0 32px;
+}
+#join .container .content form ul li.user-philsoo-li .row2 div {
+  position: relative;
+}
+#join .container .content form ul li.user-philsoo-li .row2 div input[type=checkbox] {
+  display: none;
+}
+#join .container .content form ul li.user-philsoo-li .row2 div input[type=checkbox] + label {
+  display: inline-block;
+  cursor: pointer;
+  line-height: 24px;
+  padding-left: 30px;
+  background: url("../../../public/img/ico_check_inactive.svg") left no-repeat;
+}
+#join .container .content form ul li.user-philsoo-li .row2 div input[type=checkbox]:checked + label {
+  background-image: url("../../../public/img/ico_check_active.svg");
+}
+#join .container .content form ul li.user-philsoo-li .row2 div span {
+  position: absolute;
+  text-decoration: underline;
+  top: 2px;
+  right: 0;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: -0.18px;
+  color: rgba(34, 34, 34, 0.5);
+  cursor: pointer;
+}
+#join .container .content form ul li.user-philsoo-li .row2 div:nth-child(1) {
+  margin-bottom: 16px;
+}
+#join .container .content form ul li.user-philsoo-li .row2.on {
+  display: block;
+}
+#join .container .content form ul li.user-ad-li .row1 {
+  display: flex;
+  position: relative;
+}
+#join .container .content form ul li.user-ad-li .row1 input[type=checkbox] {
+  display: none;
+}
+#join .container .content form ul li.user-ad-li .row1 input[type=checkbox] + label {
+  display: inline-block;
+  cursor: pointer;
+  line-height: 24px;
+  padding-left: 30px;
+  background: url("../../../public/img/ico_check_inactive.svg") left no-repeat;
+}
+#join .container .content form ul li.user-ad-li .row1 input[type=checkbox]:checked + label {
+  background-image: url("../../../public/img/ico_check_active.svg");
+}
+#join .container .content form ul li.user-ad-li .row1 i {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  background: url("../../../public/img/ico_plus.svg");
+  cursor: pointer;
+}
+#join .container .content form ul li.user-ad-li .row1 i.on {
+  background: url("../../../public/img/ico_minus.svg");
+}
+#join .container .content form ul li.user-ad-li .row2 {
+  display: none;
+  padding: 16px 0 0 32px;
+}
+#join .container .content form ul li.user-ad-li .row2 div {
+  position: relative;
+}
+#join .container .content form ul li.user-ad-li .row2 div input[type=checkbox] {
+  display: none;
+}
+#join .container .content form ul li.user-ad-li .row2 div input[type=checkbox] + label {
+  display: inline-block;
+  cursor: pointer;
+  line-height: 24px;
+  padding-left: 30px;
+  background: url("../../../public/img/ico_check_inactive.svg") left no-repeat;
+}
+#join .container .content form ul li.user-ad-li .row2 div input[type=checkbox]:checked + label {
+  background-image: url("../../../public/img/ico_check_active.svg");
+}
+#join .container .content form ul li.user-ad-li .row2 div:nth-child(1) {
+  margin-bottom: 16px;
+}
+#join .container .content form ul li.user-ad-li .row2 div:nth-child(2) {
+  margin-bottom: 16px;
+}
+#join .container .content form ul li.user-ad-li .row2.on {
+  display: block;
+}

@@ -1,0 +1,66 @@
+#service {
+  width: 100%;
+  padding: 40px 0 160px 0;
+}
+#service > .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+#service > .container > .gap {
+  width: 100%;
+}
+#service > .container > .gap > .content {
+  width: 100%;
+  display: flex;
+}
+#service > .container > .gap > .content > .col1 {
+  width: 180px;
+  margin: 0 20px 0 0;
+}
+#service > .container > .gap > .content > .col1 > .nav {
+  width: 100%;
+}
+#service > .container > .gap > .content > .col1 > .nav > .title {
+  width: 100%;
+  padding: 0 0 30px 0;
+}
+#service > .container > .gap > .content > .col1 > .nav > .title h3 {
+  color: #222;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.15px;
+  line-height: 29px;
+}
+#service > .container > .gap > .content > .col1 > .nav > ul {
+  width: 100%;
+}
+#service > .container > .gap > .content > .col1 > .nav > ul > li {
+  width: 100%;
+}
+#service > .container > .gap > .content > .col1 > .nav > ul > li h4 {
+  color: #222;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.27px;
+  line-height: 22px;
+  margin: 0 0 12px 0;
+  vertical-align: top;
+}
+#service > .container > .gap > .content > .col1 > .nav > ul > li > ul {
+  width: 100%;
+}
+#service > .container > .gap > .content > .col1 > .nav > ul > li > ul > li {
+  width: 100%;
+  margin: 20px 0;
+}
+#service > .container > .gap > .content > .col1 > .nav > ul > li > ul > li a {
+  color: rgba(34, 34, 34, 0.3);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.15px;
+  line-height: 18px;
+  margin: 0 0 12px 0;
+  vertical-align: bottom;
+}

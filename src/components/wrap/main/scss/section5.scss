@@ -1,0 +1,22 @@
+#section5{
+    width: 100%;
+    background-color: rgb(194, 197, 200);
+    .container{
+        width: 100%;
+        max-width: 1280px;
+        height: 480px;
+        margin: 0 auto;
+        .gap{
+            width: 100%;
+            .content{
+                width: 100%;
+                a{
+                    width: 100%;
+                    img{
+                        height: 480px;
+                    }
+                }
+            }
+        }
+    }
+}

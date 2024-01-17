@@ -1,0 +1,96 @@
+#section7 {
+  width: 100%;
+  padding: 40px 0 56px;
+  position: relative;
+}
+#section7 .container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+#section7 .container .gap {
+  width: 100%;
+}
+#section7 .container .gap .title {
+  width: 100%;
+}
+#section7 .container .gap .title h2 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+  padding: 0 0 5px 0;
+}
+#section7 .container .gap .content {
+  width: 100%;
+}
+#section7 .container .gap .content .slide-container {
+  width: 100%;
+}
+#section7 .container .gap .content .slide-container .slide-view {
+  width: 100%;
+  overflow: hidden;
+}
+#section7 .container .gap .content .slide-container .slide-view .slide-wrap {
+  width: 1200px;
+  height: 260px;
+  display: flex;
+  position: relative;
+  margin: 0 0 0 -16.66666667%;
+}
+#section7 .container .gap .content .slide-container .slide-view .slide-wrap .slide {
+  width: 16.67%;
+  max-width: 202px;
+}
+#section7 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gap {
+  padding: 0 5px;
+  width: 196px;
+}
+#section7 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gap a {
+  display: block;
+  position: relative;
+  width: 196px;
+}
+#section7 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gap a img {
+  position: relative;
+  width: 196px;
+  height: 260px;
+  border-radius: 5px;
+}
+#section7 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gap a span {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+#section7 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gap a span img {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+}
+#section7 .container .gap .content .slide-container .slide-view .slide-wrap .slide .col-gap a p {
+  position: absolute;
+  left: 3px;
+  bottom: 3px;
+  color: #fff;
+}
+#section7 .left-arrow-btn {
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  top: 150px;
+  margin: 0 0 0 -660px;
+}
+#section7 .left-arrow-btn img {
+  width: auto;
+}
+#section7 .right-arrow-btn {
+  z-index: 2;
+  position: absolute;
+  right: 50%;
+  top: 150px;
+  margin: 0 -660px 0 0;
+  transform: rotate(180deg);
+}
+#section7 .right-arrow-btn img {
+  width: auto;
+}

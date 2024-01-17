@@ -1,0 +1,621 @@
+#myPage {
+  width: 100%;
+  padding: 40px 0 160px 0;
+}
+#myPage > .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+#myPage > .container > .gap {
+  width: 100%;
+}
+#myPage > .container > .gap > .content {
+  width: 100%;
+  display: flex;
+}
+#myPage > .container > .gap > .content > .col1 {
+  width: 180px;
+  margin: 0 20px 0 0;
+}
+#myPage > .container > .gap > .content > .col1 > .nav {
+  width: 100%;
+}
+#myPage > .container > .gap > .content > .col1 > .nav > .title {
+  width: 100%;
+  padding: 0 0 30px 0;
+}
+#myPage > .container > .gap > .content > .col1 > .nav > .title h3 {
+  color: #222;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.15px;
+  line-height: 29px;
+}
+#myPage > .container > .gap > .content > .col1 > .nav > ul {
+  width: 100%;
+}
+#myPage > .container > .gap > .content > .col1 > .nav > ul > li {
+  width: 100%;
+}
+#myPage > .container > .gap > .content > .col1 > .nav > ul > li h4 {
+  color: #222;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.27px;
+  line-height: 22px;
+  margin: 0 0 12px 0;
+  vertical-align: top;
+}
+#myPage > .container > .gap > .content > .col1 > .nav > ul > li > ul {
+  width: 100%;
+}
+#myPage > .container > .gap > .content > .col1 > .nav > ul > li > ul > li {
+  width: 100%;
+  margin: 20px 0;
+}
+#myPage > .container > .gap > .content > .col1 > .nav > ul > li > ul > li a {
+  color: rgba(34, 34, 34, 0.3);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.15px;
+  line-height: 18px;
+  margin: 0 0 12px 0;
+  vertical-align: bottom;
+}
+#myPage > .container > .gap > .content > .col2 {
+  width: 1000px;
+}
+#myPage > .container > .gap > .content > .col2 > ul {
+  width: 100%;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li {
+  width: 100%;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .my-profile {
+  display: flex;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 23px 0 23px 23px;
+  position: relative;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .my-profile > .col1 {
+  margin: 0 10px 0 0;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .my-profile > .col1 img {
+  width: 100px;
+  height: 100px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .my-profile > .col2 {
+  padding: 10px 0;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .my-profile > .col2 > h4 {
+  color: #000;
+  font-weight: 600;
+  line-height: 21px;
+  font-size: 18px;
+  letter-spacing: -0.27px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .my-profile > .col2 > span {
+  color: rgba(34, 34, 34, 0.5);
+  font-size: 15px;
+  letter-spacing: -0.05px;
+  line-height: 18px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .my-profile > .col2 > .btn-box {
+  margin: 12px 0 0 0;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .my-profile > .col2 > .btn-box button {
+  font-size: 15px;
+  height: 36px;
+  letter-spacing: -0.06px;
+  line-height: 34px;
+  padding: 0 14px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  color: rgba(34, 34, 34, 0.8);
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .my-profile > .col2 > .btn-box button:nth-child(1) {
+  margin: 0 7px 0 0;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .my-profile > .col3 {
+  margin: 0 0 0 auto;
+  width: 318px;
+  height: 100px;
+  padding: 10px 0;
+  display: flex;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .my-profile > .col3 > .first-box {
+  margin: auto 0;
+  width: 50%;
+  text-align: center;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .my-profile > .col3 > .first-box::after {
+  content: "";
+  width: 1px;
+  height: 100px;
+  position: absolute;
+  top: 23px;
+  right: 159.5px;
+  display: inline-block;
+  background-color: rgba(34, 34, 34, 0.1);
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .my-profile > .col3 > .first-box h5 {
+  color: #222;
+  line-height: 19px;
+  font-size: 16px;
+  letter-spacing: -0.16px;
+  font-weight: 700;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .my-profile > .col3 > .first-box span {
+  margin: 5px 0 0 0;
+  color: rgba(34, 34, 34, 0.5);
+  line-height: 19px;
+  font-size: 15px;
+  letter-spacing: -0.07px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .my-profile > .col3 > .second-box {
+  width: 50%;
+  text-align: center;
+  margin: auto 0;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .my-profile > .col3 > .second-box h5 {
+  color: #222;
+  line-height: 19px;
+  font-size: 16px;
+  letter-spacing: -0.16px;
+  font-weight: 700;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .my-profile > .col3 > .second-box span {
+  margin: 5px 0 0 0;
+  color: rgba(34, 34, 34, 0.5);
+  line-height: 19px;
+  font-size: 15px;
+  letter-spacing: -0.07px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list {
+  width: 100%;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list h4 {
+  margin: 42px 0 0 0;
+  font-size: 18px;
+  letter-spacing: -0.27px;
+  padding: 0 0 16px 0;
+  color: #000;
+  font-weight: 700;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list > .list {
+  background-color: #f2f9f6;
+  border-radius: 10px;
+  display: flex;
+  width: 100%;
+  height: 96px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list > .list > .col1 {
+  width: 25%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list > .list > .col1 h6 {
+  position: absolute;
+  top: 18px;
+  font-size: 15px;
+  letter-spacing: -0.07px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list > .list > .col1 span {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.09px;
+  line-height: 20px;
+  color: #31b46e;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list > .list > .col1::after {
+  content: "";
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 1px;
+  height: 60px;
+  display: inline-block;
+  background-color: rgba(34, 34, 34, 0.1);
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list > .list > .col2 {
+  width: 25%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list > .list > .col2 h6 {
+  position: absolute;
+  top: 18px;
+  font-size: 15px;
+  letter-spacing: -0.07px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list > .list > .col2 span {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.09px;
+  line-height: 20px;
+  color: #000;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list > .list > .col3 {
+  width: 25%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list > .list > .col3 h6 {
+  position: absolute;
+  top: 18px;
+  font-size: 15px;
+  letter-spacing: -0.07px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list > .list > .col3 span {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.09px;
+  line-height: 20px;
+  color: #000;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list > .list > .col4 {
+  width: 25%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list > .list > .col4 h6 {
+  position: absolute;
+  top: 18px;
+  font-size: 15px;
+  letter-spacing: -0.07px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list > .list > .col4 span {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.09px;
+  line-height: 20px;
+  color: #000;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list .do-storage {
+  width: 100%;
+  margin: 10px 0 0 0;
+  display: flex;
+  background-color: rgba(34, 34, 34, 0.8);
+  border-radius: 10px;
+  padding: 13px 30px 13px 16px;
+  position: relative;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list .do-storage .img-box {
+  margin: 0 10px 0 0;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list .do-storage .text-box h5 {
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: -0.21px;
+  font-weight: 700;
+  line-height: 17px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list .do-storage .text-box span {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 15px;
+  margin-top: 2px;
+  letter-spacing: -0.06px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .storage-list .do-storage::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  top: 50%;
+  transform: translateY(-60%) rotate(45deg);
+  right: 15px;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .buy-list h4 {
+  margin: 42px 0 0 0;
+  font-size: 18px;
+  letter-spacing: -0.27px;
+  padding: 0 0 16px 0;
+  color: #000;
+  font-weight: 700;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .buy-list > .list {
+  background-color: #fafafa;
+  border-radius: 10px;
+  display: flex;
+  width: 100%;
+  height: 96px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .buy-list > .list > .col1 {
+  width: 25%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .buy-list > .list > .col1 h6 {
+  position: absolute;
+  top: 18px;
+  font-size: 15px;
+  letter-spacing: -0.07px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .buy-list > .list > .col1 span {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.09px;
+  line-height: 20px;
+  color: #31b46e;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .buy-list > .list > .col1::after {
+  content: "";
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 1px;
+  height: 60px;
+  display: inline-block;
+  background-color: rgba(34, 34, 34, 0.1);
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .buy-list > .list > .col2 {
+  width: 25%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .buy-list > .list > .col2 h6 {
+  position: absolute;
+  top: 18px;
+  font-size: 15px;
+  letter-spacing: -0.07px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .buy-list > .list > .col2 span {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.09px;
+  line-height: 20px;
+  color: #000;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .buy-list > .list > .col3 {
+  width: 25%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .buy-list > .list > .col3 h6 {
+  position: absolute;
+  top: 18px;
+  font-size: 15px;
+  letter-spacing: -0.07px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .buy-list > .list > .col3 span {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.09px;
+  line-height: 20px;
+  color: #000;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .buy-list > .list > .col4 {
+  width: 25%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .buy-list > .list > .col4 h6 {
+  position: absolute;
+  top: 18px;
+  font-size: 15px;
+  letter-spacing: -0.07px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .buy-list > .list > .col4 span {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.09px;
+  line-height: 20px;
+  color: #000;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .buy-list > .past {
+  width: 100%;
+  padding: 80px 0;
+  text-align: center;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .buy-list > .past span {
+  color: rgba(34, 34, 34, 0.4);
+  letter-spacing: -0.07px;
+  font-size: 15px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .sell-list h4 {
+  margin: 42px 0 0 0;
+  font-size: 18px;
+  letter-spacing: -0.27px;
+  padding: 0 0 16px 0;
+  color: #000;
+  font-weight: 700;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .sell-list > .list {
+  background-color: #fafafa;
+  border-radius: 10px;
+  display: flex;
+  width: 100%;
+  height: 96px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .sell-list > .list > .col1 {
+  width: 25%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .sell-list > .list > .col1 h6 {
+  position: absolute;
+  top: 18px;
+  font-size: 15px;
+  letter-spacing: -0.07px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .sell-list > .list > .col1 span {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.09px;
+  line-height: 20px;
+  color: #31b46e;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .sell-list > .list > .col1::after {
+  content: "";
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 1px;
+  height: 60px;
+  display: inline-block;
+  background-color: rgba(34, 34, 34, 0.1);
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .sell-list > .list > .col2 {
+  width: 25%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .sell-list > .list > .col2 h6 {
+  position: absolute;
+  top: 18px;
+  font-size: 15px;
+  letter-spacing: -0.07px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .sell-list > .list > .col2 span {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.09px;
+  line-height: 20px;
+  color: #000;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .sell-list > .list > .col3 {
+  width: 25%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .sell-list > .list > .col3 h6 {
+  position: absolute;
+  top: 18px;
+  font-size: 15px;
+  letter-spacing: -0.07px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .sell-list > .list > .col3 span {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.09px;
+  line-height: 20px;
+  color: #000;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .sell-list > .list > .col4 {
+  width: 25%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .sell-list > .list > .col4 h6 {
+  position: absolute;
+  top: 18px;
+  font-size: 15px;
+  letter-spacing: -0.07px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .sell-list > .list > .col4 span {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.09px;
+  line-height: 20px;
+  color: #000;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .sell-list > .past {
+  width: 100%;
+  padding: 80px 0;
+  text-align: center;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .sell-list > .past span {
+  color: rgba(34, 34, 34, 0.4);
+  letter-spacing: -0.07px;
+  font-size: 15px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .interest-list {
+  width: 100%;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .interest-list h4 {
+  margin: 42px 0 0 0;
+  font-size: 18px;
+  letter-spacing: -0.27px;
+  padding: 0 0 16px 0;
+  color: #000;
+  font-weight: 700;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .interest-list .product-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .interest-list .product-container .product {
+  width: 235px;
+  margin: 20px 0;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .interest-list .product-container .product > .img-box {
+  background-color: rgb(244, 244, 244);
+  border-radius: 10px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .interest-list .product-container .product > .img-box img {
+  width: 231px;
+  height: 231px;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .interest-list .product-container .product h6 {
+  width: 100%;
+  margin: 9px 0 0 0;
+  color: #222;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  text-overflow: ellipsis;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .interest-list .product-container .product p {
+  width: 100%;
+  text-overflow: ellipsis;
+  margin: 10px 0 0 0;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .interest-list .product-container .product span {
+  margin: 20px 0 0 0;
+  color: #222;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  display: block;
+}
+#myPage > .container > .gap > .content > .col2 > ul > li .interest-list .product-container .product i {
+  display: block;
+  color: rgba(34, 34, 34, 0.4);
+  font-size: 15px;
+  line-height: 13px;
+}

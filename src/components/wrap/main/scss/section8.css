@@ -1,0 +1,22 @@
+#section8 {
+  width: 100%;
+  background-color: rgb(229, 226, 204);
+}
+#section8 .container {
+  width: 100%;
+  max-width: 1280px;
+  height: 480px;
+  margin: 0 auto;
+}
+#section8 .container .gap {
+  width: 100%;
+}
+#section8 .container .gap .content {
+  width: 100%;
+}
+#section8 .container .gap .content a {
+  width: 100%;
+}
+#section8 .container .gap .content a img {
+  height: 480px;
+}/*# sourceMappingURL=section8.css.map */

@@ -1,0 +1,122 @@
+#myUpdate {
+  width: 100%;
+}
+#myUpdate .container {
+  width: 100%;
+}
+#myUpdate .container .gap {
+  width: 100%;
+}
+#myUpdate .container .gap .title {
+  padding: 5px 0 16px 0;
+  border-bottom: 3px solid #000;
+}
+#myUpdate .container .gap .title h3 {
+  color: #222;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.36px;
+  line-height: 29px;
+}
+#myUpdate .container .gap .content {
+  width: 100%;
+}
+#myUpdate .container .gap .content > ul {
+  width: 100%;
+}
+#myUpdate .container .gap .content > ul > li {
+  width: 100%;
+}
+#myUpdate .container .gap .content > ul > li:nth-child(1) {
+  padding: 38px 0;
+  display: flex;
+  border-bottom: 1px solid rgba(34, 34, 34, 0.1);
+  margin: 0 0 38px 0;
+}
+#myUpdate .container .gap .content > ul > li .img-box {
+  margin: 0 12px 0 0;
+}
+#myUpdate .container .gap .content > ul > li .img-box img {
+  width: 90px;
+  height: 85px;
+}
+#myUpdate .container .gap .content > ul > li .text-box {
+  padding: 12px 0 0 0;
+}
+#myUpdate .container .gap .content > ul > li .text-box .name-box {
+  padding: 0 0 10px 0;
+}
+#myUpdate .container .gap .content > ul > li .text-box .name-box span {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.27px;
+  line-height: 22px;
+}
+#myUpdate .container .gap .content > ul > li .text-box .btn-box > button {
+  padding: 0 14px;
+  height: 34px;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  letter-spacing: -0.06px;
+  border: 1px solid rgba(34, 34, 34, 0.4);
+  color: rgba(34, 34, 34, 0.7);
+}
+#myUpdate .container .gap .content > ul > li .text-box .btn-box > button:nth-child(1) {
+  margin: 0 10px 0 0;
+}
+#myUpdate .container .gap .content > ul > li form {
+  width: 50%;
+  margin: 0 auto 0 0;
+}
+#myUpdate .container .gap .content > ul > li form > ul {
+  width: 100%;
+}
+#myUpdate .container .gap .content > ul > li form > ul > li {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 25px 0 12px;
+  position: relative;
+}
+#myUpdate .container .gap .content > ul > li form > ul > li h4 {
+  color: #222;
+  font-size: 18px;
+  font-weight: 700;
+}
+#myUpdate .container .gap .content > ul > li form > ul > li label {
+  width: 100%;
+  font-size: 15px;
+  letter-spacing: -0.07px;
+  color: rgba(34, 34, 34, 0.6);
+  margin: 0 0 7px 0;
+}
+#myUpdate .container .gap .content > ul > li form > ul > li input {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid rgba(34, 34, 34, 0.1);
+  padding: 7px 0;
+  outline: 0;
+  color: #222;
+  font-size: 14px;
+  letter-spacing: -0.16px;
+  font-weight: 600;
+}
+#myUpdate .container .gap .content > ul > li form > ul > li p {
+  position: absolute;
+  top: 80px;
+  color: #f15746;
+}
+#myUpdate .container .gap .content > ul > li form > button {
+  margin: 10px 0 0 0;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: -0.16px;
+  font-weight: 700;
+  background-color: #222;
+  width: 10%;
+  border-radius: 5px;
+  height: 30px;
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+#section12 {
+  width: 100%;
+  background-color: rgb(236, 230, 227);
+}
+#section12 .container {
+  width: 100%;
+  max-width: 1280px;
+  height: 480px;
+  margin: 0 auto;
+}
+#section12 .container .gap {
+  width: 100%;
+}
+#section12 .container .gap .content {
+  width: 100%;
+}
+#section12 .container .gap .content a {
+  width: 100%;
+}
+#section12 .container .gap .content a img {
+  height: 480px;
+}

@@ -1,0 +1,341 @@
+#wrap {
+  width: 100%;
+}
+#wrap .container2 {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px 0 40px;
+  position: relative;
+}
+#wrap .container2 .content2 {
+  width: 100%;
+  display: flex;
+}
+#wrap .container2 .content2 .left {
+  width: 210px;
+  height: 100%;
+  position: sticky;
+  margin-right: 10px;
+  padding-right: 10px;
+  overflow-y: auto;
+}
+#wrap .container2 .content2 .left .left-filter {
+  width: 100%;
+}
+#wrap .container2 .content2 .left .left-filter .filter-title {
+  width: 100%;
+  margin: 20px 0 16px 0;
+}
+#wrap .container2 .content2 .left .left-filter .filter-title strong {
+  font-size: 14px;
+  font-weight: 700;
+  color: #222;
+  text-align: left;
+}
+#wrap .container2 .content2 .left .left-filter .filter-a {
+  padding: 8px 12px 7px 12px;
+  display: inline-flex;
+  align-items: center;
+  border-bottom: 1px solid #ebebeb;
+  border-radius: 30px;
+}
+#wrap .container2 .content2 .left .left-filter .filter-a a {
+  display: flex;
+}
+#wrap .container2 .content2 .left .left-filter .filter-a a span {
+  color: rgba(34, 34, 34, 0.8);
+  font-size: 12px;
+}
+#wrap .container2 .content2 .left .left-filter .filter-a a span img {
+  width: 10px;
+  height: 12px;
+}
+#wrap .container2 .content2 .left .left-content {
+  width: 100%;
+}
+#wrap .container2 .content2 .left .left-content div {
+  width: 100%;
+}
+#wrap .container2 .content2 .left .left-content div .left-box {
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  position: relative;
+}
+#wrap .container2 .content2 .left .left-content div .left-box .category-btn {
+  width: 100%;
+  height: 69px;
+  padding: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+#wrap .container2 .content2 .left .left-content div .left-box .category-btn .title-box {
+  width: 100%;
+}
+#wrap .container2 .content2 .left .left-content div .left-box .category-btn .title-box span {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.07px;
+}
+#wrap .container2 .content2 .left .left-content div .left-box .category-btn .title-box .cata-all {
+  font-size: 14px;
+  color: rgba(34, 34, 34, 0.5);
+  letter-spacing: -0.15px;
+  margin-top: 5px;
+  display: none;
+}
+#wrap .container2 .content2 .left .left-content div .left-box .category-btn .title-box .cata-all.on {
+  display: block;
+}
+#wrap .container2 .content2 .left .left-content div .left-box .category-btn .icon-box {
+  display: flex;
+  justify-content: end;
+}
+#wrap .container2 .content2 .left .left-content div .left-box .category-btn .icon-box img {
+  width: 15px;
+  height: 15px;
+}
+#wrap .container2 .content2 .left .left-content div .left-box .sub3 {
+  width: 100%;
+  height: 320px;
+  overflow-y: scroll;
+}
+#wrap .container2 .content2 .left .left-content div .left-box .sub3::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0px;
+}
+#wrap .container2 .content2 .left .left-content div .left-box .sub3:hover::-webkit-scrollbar {
+  width: 8px;
+}
+#wrap .container2 .content2 .left .left-content div .left-box .sub3:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#wrap .container2 .content2 .left .left-content div .left-box .sub4 {
+  height: 320px;
+  overflow-y: scroll;
+}
+#wrap .container2 .content2 .left .left-content div .left-box .sub4::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0px;
+}
+#wrap .container2 .content2 .left .left-content div .left-box .sub4:hover::-webkit-scrollbar {
+  width: 8px;
+}
+#wrap .container2 .content2 .left .left-content div .left-box .sub4:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#wrap .container2 .content2 .left .left-content div .left-box .sub {
+  width: 100%;
+  margin: 0 0 24px 0;
+}
+#wrap .container2 .content2 .left .left-content div .left-box .sub ul li {
+  padding: 10px 0 0 0;
+}
+#wrap .container2 .content2 .left .left-content div .left-box .sub ul li label {
+  font-size: 14px;
+  color: #222;
+  transition: all 0.1s;
+}
+#wrap .container2 .content2 .left .left-content div .left-box .sub ul li label input {
+  font-size: 14px;
+  width: 16px;
+  height: 16px;
+  margin: 0 5px 0 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 0;
+  background: url(../images/ico_check_inactive.svg);
+}
+#wrap .container2 .content2 .left .left-content div .left-box .sub ul li label input:checked {
+  background: url(../images/ico_check_active.svg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: 14px 12px;
+}
+#wrap .container2 .content2 .right {
+  width: 100%;
+  position: relative;
+}
+#wrap .container2 .content2 .right .right-title-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 24px 0;
+}
+#wrap .container2 .content2 .right .right-title-wrap .shop-count {
+  width: 100%;
+}
+#wrap .container2 .content2 .right .right-title-wrap .shop-count > span {
+  font-size: 13px;
+  color: rgba(34, 34, 34, 0.8);
+}
+#wrap .container2 .content2 .right .right-title-wrap .filter-btn-wrap {
+  display: block;
+  width: 70px;
+  height: 24px;
+  cursor: pointer;
+  display: flex;
+}
+#wrap .container2 .content2 .right .right-title-wrap .filter-btn-wrap button {
+  border: 0;
+  color: #222;
+  font-size: 13px;
+  background-color: transparent;
+  cursor: pointer;
+}
+#wrap .container2 .content2 .right .right-title-wrap .filter-btn-wrap img {
+  width: 18px;
+  height: 18px;
+  margin-left: 3px;
+  margin-top: 2px;
+}
+#wrap .container2 .content2 .right .filter {
+  display: none;
+  width: 276px;
+  height: 464px;
+  justify-content: left;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid rgba(238, 238, 238, 0.5);
+  position: absolute;
+  top: 45px;
+  right: 0;
+  z-index: 3;
+}
+#wrap .container2 .content2 .right .filter.on {
+  display: block;
+}
+#wrap .container2 .content2 .right .filter > ul {
+  width: 100%;
+  text-align: left;
+}
+#wrap .container2 .content2 .right .filter > ul > li {
+  width: 100%;
+  height: 58px;
+  padding: 12px 36px 12px 16px;
+}
+#wrap .container2 .content2 .right .filter > ul > li:hover {
+  background-color: rgba(238, 238, 238, 0.3);
+}
+#wrap .container2 .content2 .right .filter > ul > li .filter-a {
+  display: block;
+}
+#wrap .container2 .content2 .right .filter > ul > li .filter-a.on {
+  font-weight: 700;
+  text-decoration: underline;
+}
+#wrap .container2 .content2 .right .filter > ul > li .filter-a .main-dsc {
+  font-size: 14px;
+  letter-spacing: -0.21px;
+}
+#wrap .container2 .content2 .right .filter > ul > li .filter-a .sub-dsc {
+  font-size: 12px;
+  padding-top: 4px;
+  color: rgba(34, 34, 34, 0.5);
+}
+#wrap .container2 .content2 .right .right-product-wrap {
+  position: relative;
+  width: 100%;
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list {
+  width: 100%;
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list .p-list {
+  width: 230px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list .p-list .product-a {
+  width: 100%;
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list .p-list .product-a .img-box {
+  width: 100%;
+  height: 230px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list .p-list .product-a .img-box > img {
+  width: 230px;
+  height: 230px;
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list .p-list .product-a .title-box {
+  padding: 8px 4px 0 4px;
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list .p-list .product-a .title-box h2 {
+  display: flex;
+  align-items: center;
+  color: #333;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.07px;
+  font-weight: 700;
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list .p-list .product-a .title-box .main-name {
+  font-size: 13px;
+  line-height: 16px;
+  color: #222;
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list .p-list .product-a .title-box .desc {
+  font-size: 11px;
+  margin-top: 2px;
+  line-height: 13px;
+  color: rgba(34, 34, 34, 0.5);
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list .p-list .product-a .title-box .deliver {
+  display: inline-flex;
+  background-color: rgb(242, 249, 246);
+  padding: 4px;
+  margin-right: 4px;
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list .p-list .product-a .title-box .deliver img {
+  width: 12px;
+  height: 12px;
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list .p-list .product-a .title-box .deliver span {
+  color: rgb(49, 180, 110);
+  font-size: 10px;
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list .p-list .product-a .title-box .price-wrap {
+  padding: 0 4px;
+  margin-top: 12px;
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list .p-list .product-a .title-box .price-wrap .amount {
+  line-height: 17px;
+  font-weight: 700;
+  font-size: 14px;
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list .p-list .product-a .title-box .price-wrap .discribe {
+  color: rgba(34, 34, 34, 0.5);
+  margin-top: 2px;
+  font-size: 11px;
+  line-height: 13px;
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list .p-list .product-a .title-box .action-wish-review {
+  padding: 12px 4px 0 4px;
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list .p-list .product-a .title-box .action-wish-review .wish-img {
+  margin-right: 4px;
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list .p-list .product-a .title-box .action-wish-review .wish-img img {
+  width: 14px;
+  height: 16px;
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list .p-list .product-a .title-box .action-wish-review .wish-content {
+  font-size: 12px;
+  color: rgba(34, 34, 34, 0.5);
+  letter-spacing: -0.06px;
+  margin-right: 5px;
+}
+#wrap .container2 .content2 .right .right-product-wrap .product-list .p-list .product-a .title-box .action-wish-review .review-content {
+  font-size: 12px;
+  color: rgba(34, 34, 34, 0.5);
+  letter-spacing: -0.06px;
+}

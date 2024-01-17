@@ -1,0 +1,620 @@
+#wrap{
+    width: 100%;
+    position: relative;
+    .container4 {
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+
+
+    }
+    #container2-datail{
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 40px;
+        position: relative;
+            #detail{
+                width: 100%;
+                padding: 30px 0 120px 0;
+                position: relative;
+                .content-wrap{
+                    display: flex;
+                    position: relative;
+                   > .slide-box{
+                        width: 600px;
+                        position: relative;
+                        > .slide-container-d{
+                            position: fixed;
+                            width: 600px;
+                            height: 100%;
+                            &.on{
+                                position: absolute;
+                                top: 70%;
+                                left: 0;
+                            }
+                          > .slide-view-d{
+                            width: 600px;
+                            height: 100%;
+                            position: relative;
+                            // overflow: hidden;
+                               > .slide-wrap-d{
+                                    width: 560PX;
+                                    height: 100%;
+                                    position: relative;
+                                    width: 100% * 4;
+                                    display: flex;  
+                                   > .slide-d{
+                                        width: 560PX;
+                                        height: 560px;
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        margin: 0 40px 0 0;
+                                        background-color: rgb(235, 240, 245);
+                                        > a{
+                                            width: 100%;
+                                            > img{
+                                                width: 560px;
+                                                height: 560px;
+                                            }
+                                        }
+                                        &.slide1 {
+                                            z-index: 3;
+                                    
+                                        }
+                                        &.slide2 {
+                                            z-index: 2;
+                                          
+
+                                        }
+                                        &.slide3 {
+                                            z-index: 1;
+                                          
+
+                                        }
+                                    }
+    
+                                }
+                                .arrow-btn-next1{
+                                    position: absolute;
+                                    z-index: 5;
+                                    top: 30%;
+                                    left: 514px;
+                                    img{
+                                        width: 44px;
+                                        height: 44px;
+                                    }
+                                    &.on{
+                                        display: none;
+                                    }
+                                }
+                                .arrow-btn-prev1{
+                                    position: absolute;
+                                    z-index: 5;
+                                    top: 30%;
+                                    left: 0;
+                                    img{
+                                        width: 44px;
+                                        height: 44px;
+                                    }
+                                    &.on{
+                                        display: none;
+                                    }
+                                }
+                            }
+    
+                        }
+    
+                        
+                    }
+                    .content-box{
+                        padding: 0 0 0 40px;
+                        width: 600px;
+                        .content-top-box{
+                            width: 100%;
+                            .main-title-box{
+                                width: 100%;
+    
+                               > .title{
+                                width: 100%;
+    
+                                > a{
+                                    width: 40px;
+                                    padding: 1px 0 0 0;
+                                    display: block;
+                                    margin-bottom: 9px;
+                                    font-size: 18px;
+                                    letter-spacing: 0.27px;
+                                    line-height: 19px;
+                                    font-weight: 800;
+                                    color: #222;
+    
+                                    
+                                }
+                               }
+                               .title-detail{
+                                margin-bottom: 4px;
+                                font-size: 18px;
+                                letter-spacing: 0.09px;
+                                color: #222;
+    
+                               }
+                               .sub-detail{
+                                color: rgba(34, 34, 34, 0.5);
+                                font-size: 14px;
+                                line-height: 17px;
+                                letter-spacing: 0.15px;
+                               }
+                            }
+                            .datail-price{
+                                width: 100%;
+                                padding: 19px 0 12px 0  ;
+                                display: flex;
+                                border-bottom: 1px solid #eee;
+                                align-items: center;
+                                .price-title{
+                                    width: 100%;
+                                    text-align: left;
+                                    span{
+                                        padding-top: 5px;
+                                        font-size: 12px;
+                                        color: rgba(34, 34, 34, 0.5);
+    
+                                    }
+                                }
+                                .price-amount{
+                                    width: 100%;
+                                    
+                                    text-align: right;
+                                    .num{
+                                        font-weight: 700;
+                                        font-size: 20px;
+                                    }
+                                    .won{
+                                        font-weight: 700;
+                                        font-size: 20px;
+                                    }
+                                    .per{
+                                        font-size: 13px;
+                                        color: rgba(34, 34, 34, 0.5);
+    
+                                    }
+                                }
+    
+                            }
+                            .btn-wrap{
+                                margin:17px 0 0 0 ;
+                                
+                                .btn1-box{
+                                    width: 100%;
+                                    cursor: pointer;
+    
+                                    .input{
+                                        width: 100%;
+                                        display:flex ;
+                                        align-items: center;
+                                        form{
+                                            input{
+                                                width: 275px;
+                                                height: 60px;
+                                                border-radius: 10px;
+                                                color: #fff;
+                                                background-color: #ef6253;
+                                                border: 0;
+                                                font-size: 17px;
+                                                font-weight: 700;
+                                                
+                                                text-align: center;
+                                                &::placeholder{
+                                                    color: #fff;
+                                                }
+                                                &:focus{
+                                                    outline: 0;
+                                                }
+                                            }
+        
+                                            button{
+                                                cursor: pointer;
+                                                font-size: 20px;
+                                                font-weight: 700;
+                                                margin-left: 10px;
+                                                width: 275px;
+                                                height: 60px;
+                                                border-radius: 10px;
+                                                color: #fff;
+                                                background-color: rgb(65, 185, 121);
+                                                border: 0
+                                            }
+                                        }
+    
+                                    }
+                                }
+                                .btn2-box{
+                                    width: 100%;
+                                    margin-top: 12px;
+                                    text-align: center;
+                                    cursor: pointer;
+                                    > a{
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        width: 560px;
+                                        height: 60px;
+                                        padding: 0 25px;
+                                        border: 1px solid #ebebeb;
+                                        border-radius: 10px;
+                                        .img-span{
+                                            img{
+                                                width: 20px;
+                                                height: 20px;
+                                            }
+                                        }
+                                        .span1{
+                                            margin-left:4px ;
+                                            line-height: 58px;
+                                            font-size: 14px;
+                                            color: rgb(51, 51, 51);
+                                        }
+                                        .span2{
+                                            margin-left:4px ;
+                                            line-height: 58px;
+                                            font-size: 14px;
+                                            font-weight: 600;
+                                            color:#333;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .content-product-box{
+                            width: 100%;
+                            .product-detail{
+                                width: 100%;
+                                h2{
+                                    font-size: 18px;
+                                    font-weight: 600;
+                                    color: rgb(34, 34, 34);
+                                    padding: 40px 0 13px 0 ;
+                                    border-bottom:1px solid rgb(235, 235, 235);
+                                }
+                                .product-wrap{
+                                    width: 100%;
+                                    padding: 19px 0 ;
+                                    align-items: center;
+                                    display: flex;
+                                    border-bottom:1px solid rgb(235, 235, 235);
+    
+                                    .detail{
+                                        width: 25%;
+                                        padding: 0 12px;
+                                        border-left: 1px solid rgb(235, 235, 235);
+                                        dt{
+                                            font-size: 12px;
+                                            line-height: 14px;
+                                            letter-spacing: -0.33px;
+                                            color: rgba(34, 34, 34, 0.5);
+                                            margin-bottom: 4px;
+                                        }
+                                        dd{
+                                            font-size: 14px;
+                                            color: rgb(34, 34, 34);
+                                            line-height: 18px;
+                                            font-size: 14px;
+    
+                                        }
+                                        .dd2{
+                                            color: rgb(34, 34, 34);
+                                            line-height: 18px;
+                                            font-size: 14px;
+                                            font-weight: 700;
+                                        }
+                                    }
+                                }
+                            }
+                            .display-item{
+                                padding: 40px 0 20px 0 ;
+                                width: 100%;
+                                border-bottom:1px solid rgb(235, 235, 235);
+    
+                                .title-wrap{
+                                    width: 100%;
+                                    padding-bottom: 12px;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    > span{
+                                        text-align: left;
+                                        font-size: 14px;
+                                        letter-spacing: -0.21px;
+                                    }
+                                    > a{
+                                        text-align: right;
+                                        font-size: 13px;
+                                        color: rgba(34, 34, 34, 0.5);
+                                    }
+    
+                                }
+                                .content-s{
+                                   
+                                    width: 100%;
+                                    padding: 4px 0 ;
+    
+                                    .point{
+                                        margin-right: 40px;
+                                        font-size: 14px;
+                                        line-height: 17px;
+                                        color: rgb(34, 34, 34);
+                                    }
+                                    .point2{
+                                        margin-right: 55px;
+    
+                                    }
+                                    >strong{
+                                        font-size: 14px;
+                                        color: rgb(34, 34, 34);
+                                        line-height: 17px;
+                                        .else{
+                                            color: rgba(34, 34, 34, 0.5);
+                                        }
+                                        span{
+                                            font-size: 14px;
+                                            color: rgb(34, 34, 34);
+                                            line-height: 17px;
+                                            font-weight: 700;
+                                        }
+                                    }
+                                }  
+                            }
+                            .delivery-datail{
+                                width: 100%;
+    
+                                .title-d{
+                                    padding: 20px 0 0 0;
+                                    width: 100%;
+                                    font-size: 14px;
+                                    letter-spacing: 0.21px;
+                                    line-height: 17px;
+    
+                                    h3{
+    
+                                    }
+                                }
+                                .deliver-way{
+                                    padding: 18px 0 ;
+                                    width: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    .img{
+                                        margin-right:15px ;
+                                        width: 40px;
+                                        height: 40px;
+                                        > img{
+                                            width: 40px;
+                                            height: 40px;
+                                        }
+                                    }
+                                    .content1{
+                                        width: 100%;
+                                        .s1{
+                                            font-size: 14px;
+                                            font-weight: 600;
+                                            letter-spacing: -0.21px;
+                                            line-height: 17px;
+                                        }
+                                        .s2{
+                                            font-size: 14px;
+                                            letter-spacing: -0.21px;
+                                            line-height: 17px;
+                                        }
+                                        .s3{
+                                            > img{
+                                                width: 16px;
+                                                height: 16px;
+                                            }
+                                        }
+                                        > p{
+                                            margin-top: 3px;
+                                            font-size: 14px;
+                                            color: rgba(34, 34, 34, 0.5);
+                                            line-height: 14px;
+                                            em{
+                                                color: rgb(41, 125, 203);
+                                            }
+                                        }
+                                    }
+    
+                                }
+                              
+                            }
+                            .banner{
+                                padding: 20px 0 0 0;
+                                width: 100%;
+    
+                                a{
+                                    display: block;
+                                    background-color: #000;
+    
+                                    width: 100%;
+                                    text-align: center;
+    
+                                    img{
+                                        width: 390px;
+                                        height: 80px;
+                                    }
+                                }
+     
+                            }
+                            .graph{
+                                width: 100%;
+                                .title-graph{
+                                    width: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    width: 100%;
+                                    height: 84px;
+                                    > h3{
+                                        font-size: 18px;
+                                        font-weight: 700;
+                                        letter-spacing: -0.15px;
+                                        line-height: 22px;
+                                    }
+                                }
+                                .tap-area{
+                                    width: 100%;
+                                    .tap-list{
+                                        width: 100%;
+                                        .list{
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            height: 36px;
+                                            border-radius: 8px;
+                                            background-color: rgb(244, 244, 244);
+                                            a{  
+                                                font-size: 13px;
+                                                width: 33.33333%;
+                                                text-align: center;
+                                                letter-spacing: -.05px;
+                                                color: rgba(34, 34, 34, 0.5);
+                                                &.on{
+                                                    width: 32%;
+                                                    border-radius: 8px;
+                                                    font-weight: 700;
+                                                    padding: 7px 5px 9px 5px ;
+                                                    color: rgba(34, 34, 34,0.8);
+                                                    background-color: #fff;
+                                                }
+                                    
+                                            }
+                                        }
+                                    }
+                                }
+                                .table{
+                                    width: 100%;
+                                    padding: 21px 0 20px 0 ;
+                                    table{
+                                        width: 100%;
+                                        border-collapse: collapse;
+                                        th{ 
+                                            font-size: 12px;
+                                            color: rgba(34, 34, 34, 0.5);
+                                            letter-spacing: -0.06px;
+                                            line-height: 14px;
+                                            width: 50%;
+                                            height: 23.5px;
+                                            padding-bottom: 9px;
+                                            border-bottom: 1px solid rgba(235, 235, 235);
+                                        }
+                                        td{
+                                            padding-top: 9px;
+                                            text-align: center;
+                                            height: 17.5px;
+                                            font-size: 14px;
+                                            line-height: 17px;
+                                            i{
+                                                > img{
+                                                    width: 10px;
+                                                    height: 10px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .show-bid{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    height: 42px;
+                                    width: 100%;
+                                    padding:  0 18px;
+                                    border-radius: 12px;
+                                    border:1px solid #d3d3d3;
+                                    .bid{
+                                        color: rgba(34,34,34,.5);
+                                        font-size: 14px;
+                                        letter-spacing: -.14px;
+                                    }
+                                }
+                            }
+                            .before{
+                                padding: 39px 0 0 0;
+                               .title2{
+                                padding: 0 0 12px 0;
+                                border-bottom:1px solid rgb(235, 235, 235);
+    
+                                > h3{
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    line-height: 22px;
+                                    letter-spacing: -0.27px;
+                                }
+                               } 
+                               .drop{
+                                width: 100%;
+                                border-bottom:1px solid rgb(235, 235, 235);
+                                padding: 22px 0 17px 0 ;
+                                height: 60px;
+                                > p{}
+                                .drop-hidden{
+                                    display: none;
+                                    width: 100%;
+                                    height: 355px;
+                                    .content_list{
+                                        .content_item{
+                                            .title_txt{
+    
+                                            }
+                                            .main_txt{
+    
+                                            }
+                                            .sub_txt{}
+                                        }
+                                    }
+                                }
+                               }
+                            }
+                            .ex{ 
+                                padding: 20px 0 0 0;
+                                width: 100%;
+                                padding-bottom: 20px;
+                                border-bottom:1px solid rgb(235, 235, 235);
+                                .wrap-wrap{
+                                    display: flex;
+                                    padding: 20px 0 0 0;
+                                    align-items: center;
+                                    .image{
+                                        margin: 0 15px 0 0;
+                                        img{
+    
+                                        }
+                                    }
+                                }
+                                .text_area{
+                                    width: 100%;
+                                    .title3{
+                                        font-size: #222 ;
+                                        font-weight: 600;
+                                        line-height: 16px;
+                                    }
+                                    .desc{
+                                        color: rgba(34, 34, 34, 0.5);
+                                        font-size: 13px;
+                                        line-height: 16px;
+                                    }
+                                }
+                            }
+                            .last{
+                                padding: 40px 0 0 0 ;
+                                font-size: 12px;
+                                color: rgba(34, 34, 34, 0.5);
+                                line-height: 16px;
+                                letter-spacing: -0.05px;
+                            }
+                        }
+                    }
+                }
+            }
+        
+
+    }
+}
